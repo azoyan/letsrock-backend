@@ -2,6 +2,7 @@
 
 ## API
 Запросы к серверу по HTTP
+`http://loocalhost:101011/api/register`
 
 Тип запроса `POST`
 
@@ -28,3 +29,5 @@
     "message": "Email уже занят"
 }
 ```
+
+### Авторизация
