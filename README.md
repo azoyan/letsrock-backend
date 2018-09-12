@@ -2,6 +2,7 @@
 
 ## API
 Запросы к серверу по HTTP
+
 Тип запроса `POST`
 
 `Content-Type: application/json`
@@ -21,8 +22,9 @@
 ```
 
 Ответ:
-
-```JSON{
+```JSON
+{
     "code": 8,
     "message": "Email уже занят"
-}```
+}
+```
