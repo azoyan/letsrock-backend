@@ -2,13 +2,13 @@
 
 ## API
 Запросы к серверу по HTTP
-`http://loocalhost:101011/api/register`
 
 Тип запроса `POST`
 
 `Content-Type: application/json`
 
 ### Регистрация
+`http://loocalhost:57805/api/register`
 Тело запроса:
 ```JSON
 {
@@ -30,4 +30,22 @@
 }
 ```
 
-### Авторизация
+### Авторизация.
+`http://localhost:57805/api/auth`
+
+```JSON
+{
+  "Identity": "mymail@ya.ru",
+  "Password": "Qwerty1234_"
+}
+```
+
+Ответ:
+```JSON
+{
+    "code": 0,
+    "message": "Успешная авторизация",
+    "token": null,
+    "userId": 1
+}
+```
