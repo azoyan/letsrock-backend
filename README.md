@@ -5,6 +5,7 @@
 Тип запроса `POST`
 
 `Content-Type: application/json`
+
 ### Регистрация
 Тело запроса:
 ```JSON
@@ -16,8 +17,11 @@
     "Email": "mymail@ya.ru",
     "PhotoB64": null,
     "Password":"Qwerty1234_"
-}```
+}
+```
+
 Ответ:
+
 ```JSON{
     "code": 8,
     "message": "Email уже занят"
